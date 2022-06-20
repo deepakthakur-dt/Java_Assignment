@@ -13,8 +13,7 @@ public class Program {
 			X = X + product;
 			p = p-1;			
 		}
-		return X;
-		
+		return X;	
 	}
 	
 	public long getNumber(long n) {
@@ -38,25 +37,12 @@ public class Program {
 
 		Program p =new Program();
 		
-
-//		System.out.println(p.getNumber(292111449845L));
-//		
-		
-
+		//5 test cases
+		System.out.println(p.getNumber(292111449845L));
 //		System.out.println(p.getNumber(382101548856L));
-		
-		
-
 //		System.out.println(p.getNumber(585091547965L));
-		
-		
-
-		System.out.println(p.getNumber(677072801451L));
-		
-		
-
-//		System.out.println(p.getNumber(191121350937L));
-		
+//		System.out.println(p.getNumber(677072801451L));
+//		System.out.println(p.getNumber(191121350937L));		
 	}
 
 }
